@@ -3,9 +3,6 @@
 ## Установка
 
 ```bash
-#создать папку
-mkdir reservation
-
 #склонировать репозиторий
 git clone https://github.com/LumberJack14/Reservation
 
