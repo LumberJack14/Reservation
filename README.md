@@ -5,6 +5,7 @@
 ```bash
 #склонировать репозиторий
 git clone https://github.com/LumberJack14/Reservation
+cd Reservation
 
 #установить зависимости
 npm install
