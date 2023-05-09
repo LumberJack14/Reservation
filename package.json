@@ -5,7 +5,7 @@
   "main": "./index.js",
   "scripts": {
     "dev": "npx webpack serve -c ./webpack.config.js",
-    "build": "npx webpack . --mode production -c ./webpack.config.js"
+    "build": "npx webpack . --mode production -c ./webpack.config.js  "
   },
   "keywords": [
     "JavaScript",
@@ -39,6 +39,11 @@
     "webpack-dev-server": "^4.13.3"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.12.3",
+    "@mui/x-date-pickers": "^6.3.1",
+    "dayjs": "^1.11.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

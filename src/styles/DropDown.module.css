@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.itemsContainer {
+  position: absolute;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  border: 1px solid grey;
+  width: 150px;
+  z-index: 1337;
+  max-height: 300px;
+
+  overflow-y: scroll;
+}

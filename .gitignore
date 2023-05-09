@@ -6,3 +6,9 @@
 
 #environment
 .env
+
+#prettier config
+/.prettierrc
+
+/public/task.jpg
+
