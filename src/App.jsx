@@ -47,6 +47,7 @@ const App = () => {
 
     if (error) {
       setError("fill");
+      return;
     }
 
     const logInfo = {
