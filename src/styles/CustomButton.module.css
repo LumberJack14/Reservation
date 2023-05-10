@@ -1,8 +1,17 @@
+@import "./roboto.css";
+
 .btn {
-  width: 100px;
-  height: 30px;
+  font-family: "Roboto", sans-serif;
+  width: 140px;
+  height: 35px;
   margin-top: 10px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 7px;
   border: 1px solid grey;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
 }

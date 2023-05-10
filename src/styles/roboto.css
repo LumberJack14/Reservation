@@ -1,5 +1,5 @@
 @font-face {
   font-family: "Roboto";
   src: local("Roboto"),
-    url("../../public/assets/Roboto-Regular.ttf") format("truetype");
+    url("/public/assets/Roboto-Regular.ttf") format("truetype");
 }

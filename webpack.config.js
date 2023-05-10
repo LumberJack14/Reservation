@@ -22,6 +22,8 @@ module.exports = {
     extensions: [".js", ".jsx", ".json"],
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      Styles: path.resolve(__dirname, "./src/styles"),
+      Components: path.resolve(__dirname, "./src/Components"),
     },
   },
   plugins: [
@@ -60,7 +62,23 @@ module.exports = {
         ],
       },
       {
-        test: /\.(ttf|otf|woff|woff2)$/i,
+        test: /\.svg/i,
+        type: "asset/inline",
+      },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        dependency: { not: ["url"] },
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(ttf|otf|woff|woff2|)$/i,
         use: ["file-loader"],
       },
     ],
