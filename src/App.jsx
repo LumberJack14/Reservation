@@ -113,7 +113,7 @@ const App = () => {
                 format="DD/MM/YYYY"
                 slotProps={{
                   textField: {
-                    helperText: "MM/DD/YYYY",
+                    helperText: "DD/MM/YYYY",
                   },
                 }}
                 minDate={dayjs()}
